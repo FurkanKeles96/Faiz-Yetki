@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>StajFaiz2Alternatif</Name>
+    <Description>STAJ İÇİN</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>StajFaiz2Alternatif</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.jpg</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="StajFaiz2Alternatif.csproj" File="StajFaiz2Alternatif.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AnaMenu.cs">AnaMenu.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AnaMenu.Designer.cs">AnaMenu.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AnaMenu.resx">AnaMenu.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="dataSetYetkiSeviyesi.xsd">dataSetYetkiSeviyesi.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="dataSetYetkiSeviyesi.Designer.cs">dataSetYetkiSeviyesi.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="dataSetYetkiSeviyesi.xsc">dataSetYetkiSeviyesi.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="dataSetYetkiSeviyesi.xss">dataSetYetkiSeviyesi.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="kullaniciData.xsd">kullaniciData.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="kullaniciData.Designer.cs">kullaniciData.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="kullaniciData.xsc">kullaniciData.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="kullaniciData.xss">kullaniciData.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="musteriData.xsd">musteriData.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="musteriData.Designer.cs">musteriData.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="musteriData.xsc">musteriData.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="musteriData.xss">musteriData.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stajFaizDenemeDataSet.xsd">stajFaizDenemeDataSet.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stajFaizDenemeDataSet.Designer.cs">stajFaizDenemeDataSet.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stajFaizDenemeDataSet.xsc">stajFaizDenemeDataSet.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stajFaizDenemeDataSet.xss">stajFaizDenemeDataSet.xss</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
